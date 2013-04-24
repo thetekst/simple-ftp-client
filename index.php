@@ -2,8 +2,8 @@
 
 define('GW_MAXFILESIZE', 10490000); // 10Mb
 define("USER_NAME", "user");
-define("USER_PASS", "0J184yM7rt");
-define("USER_HOST", "62.76.187.249");
+define("USER_PASS", "pass");
+define("USER_HOST", "host");
 
 if(isset($_POST['submit'])) {
 	$thisFile = $_FILES['uploadedfile']['name'];
